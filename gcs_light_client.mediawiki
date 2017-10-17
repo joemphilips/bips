@@ -752,18 +752,18 @@ The <code>cfheaders</code> message is defined as follows:
 |-
 | 32
 | StopHash
-| []byte
-| Protocol Version.
+| [32]byte
+| Hash to stop at.
 |-
 | 1
 | FilterType
 | byte
-| Number of block locators.
+| Type of filter header being requested
 |-
 | Var-Int
 | NumHeaders
 | uint64
-| Hash to stop at.
+| Number of headers to send.
 |-
 | NumHeaders * 32
 | HeaderHashes
