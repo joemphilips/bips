@@ -867,6 +867,7 @@ server. Additionally, the compact client-side chain index also opens up the
 door to smart contract applications which require agent action in response to
 on-chain events. Examples of such applications include Lightning.
 
+== Enforce as Consensus ==
 
 == Implementation Notes ==
 
